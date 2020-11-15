@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E638A5E6568A0F53545839B /* Pods_ProSoohyuk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835B32D5D5CF2F1057C8546C /* Pods_ProSoohyuk.framework */; };
 		CC3D5C33256160B7003A0081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D5C32256160B7003A0081 /* AppDelegate.swift */; };
 		CC3D5C35256160B7003A0081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D5C34256160B7003A0081 /* SceneDelegate.swift */; };
 		CC3D5C37256160B7003A0081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D5C36256160B7003A0081 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		835B32D5D5CF2F1057C8546C /* Pods_ProSoohyuk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProSoohyuk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF710938774DDBD308E05A2 /* Pods-ProSoohyuk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProSoohyuk.release.xcconfig"; path = "Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk.release.xcconfig"; sourceTree = "<group>"; };
 		CC3D5C2F256160B7003A0081 /* ProSoohyuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProSoohyuk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3D5C32256160B7003A0081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3D5C34256160B7003A0081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		CC3D5C3B256160B8003A0081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC3D5C3E256160B8003A0081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3D5C40256160B8003A0081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95DB5716DD90FDE57D08CF1 /* Pods-ProSoohyuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProSoohyuk.debug.xcconfig"; path = "Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E638A5E6568A0F53545839B /* Pods_ProSoohyuk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		055FFF54FB969F220F19AE80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D95DB5716DD90FDE57D08CF1 /* Pods-ProSoohyuk.debug.xcconfig */,
+				9EF710938774DDBD308E05A2 /* Pods-ProSoohyuk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		544006165D88BF44D9E8F2F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835B32D5D5CF2F1057C8546C /* Pods_ProSoohyuk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC3D5C26256160B7003A0081 = {
 			isa = PBXGroup;
 			children = (
 				CC3D5C31256160B7003A0081 /* ProSoohyuk */,
 				CC3D5C30256160B7003A0081 /* Products */,
+				055FFF54FB969F220F19AE80 /* Pods */,
+				544006165D88BF44D9E8F2F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC3D5C43256160B8003A0081 /* Build configuration list for PBXNativeTarget "ProSoohyuk" */;
 			buildPhases = (
+				1C51E6944EA337CF155A9A14 /* [CP] Check Pods Manifest.lock */,
 				CC3D5C2B256160B7003A0081 /* Sources */,
 				CC3D5C2C256160B7003A0081 /* Frameworks */,
 				CC3D5C2D256160B7003A0081 /* Resources */,
+				37BF207B270A1E9B910C6DC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +157,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C51E6944EA337CF155A9A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProSoohyuk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37BF207B270A1E9B910C6DC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC3D5C2B256160B7003A0081 /* Sources */ = {
@@ -283,18 +351,22 @@
 		};
 		CC3D5C44256160B8003A0081 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95DB5716DD90FDE57D08CF1 /* Pods-ProSoohyuk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BW7UK2S3BW;
 				INFOPLIST_FILE = ProSoohyuk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.prosoohyuk.ProSoohyuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,18 +374,22 @@
 		};
 		CC3D5C45256160B8003A0081 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF710938774DDBD308E05A2 /* Pods-ProSoohyuk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BW7UK2S3BW;
 				INFOPLIST_FILE = ProSoohyuk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.prosoohyuk.ProSoohyuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
