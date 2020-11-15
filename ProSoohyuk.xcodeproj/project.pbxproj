@@ -27,6 +27,7 @@
 		CC3D5C3B256160B8003A0081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC3D5C3E256160B8003A0081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3D5C40256160B8003A0081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3D5C5725616957003A0081 /* ProSoohyuk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProSoohyuk.entitlements; sourceTree = "<group>"; };
 		D95DB5716DD90FDE57D08CF1 /* Pods-ProSoohyuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProSoohyuk.debug.xcconfig"; path = "Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +81,7 @@
 		CC3D5C31256160B7003A0081 /* ProSoohyuk */ = {
 			isa = PBXGroup;
 			children = (
+				CC3D5C5725616957003A0081 /* ProSoohyuk.entitlements */,
 				CC3D5C32256160B7003A0081 /* AppDelegate.swift */,
 				CC3D5C34256160B7003A0081 /* SceneDelegate.swift */,
 				CC3D5C36256160B7003A0081 /* ViewController.swift */,
@@ -355,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProSoohyuk/ProSoohyuk.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BW7UK2S3BW;
@@ -378,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProSoohyuk/ProSoohyuk.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BW7UK2S3BW;
