@@ -20,6 +20,7 @@
 		CC8DCACB256278DB00BD6E5A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCACA256278DB00BD6E5A /* ThirdViewController.swift */; };
 		CC8DCACE256278EC00BD6E5A /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCACD256278EC00BD6E5A /* FourthViewController.swift */; };
 		CC8DCAD1256278FC00BD6E5A /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCAD0256278FC00BD6E5A /* FifthViewController.swift */; };
+		CC8DCAD4256292CF00BD6E5A /* HtmlTest.html in Resources */ = {isa = PBXBuildFile; fileRef = CC8DCAD3256292CF00BD6E5A /* HtmlTest.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CC8DCACA256278DB00BD6E5A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		CC8DCACD256278EC00BD6E5A /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		CC8DCAD0256278FC00BD6E5A /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		CC8DCAD3256292CF00BD6E5A /* HtmlTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HtmlTest.html; sourceTree = "<group>"; };
 		D95DB5716DD90FDE57D08CF1 /* Pods-ProSoohyuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProSoohyuk.debug.xcconfig"; path = "Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		CC3D5C31256160B7003A0081 /* ProSoohyuk */ = {
 			isa = PBXGroup;
 			children = (
+				CC8DCAD3256292CF00BD6E5A /* HtmlTest.html */,
 				CC8DCAB82562608F00BD6E5A /* GoogleService-Info.plist */,
 				CC3D5C5725616957003A0081 /* ProSoohyuk.entitlements */,
 				CC3D5C32256160B7003A0081 /* AppDelegate.swift */,
@@ -174,6 +177,7 @@
 				CC8DCAB92562608F00BD6E5A /* GoogleService-Info.plist in Resources */,
 				CC3D5C3C256160B8003A0081 /* Assets.xcassets in Resources */,
 				CC3D5C3A256160B7003A0081 /* Main.storyboard in Resources */,
+				CC8DCAD4256292CF00BD6E5A /* HtmlTest.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

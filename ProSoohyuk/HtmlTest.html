@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta http-http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <script type="text/javascript" charset="utf-8">
+
+  function callNative() {
+    try {
+      webkit.messageHandlers.callbackHandler.postMessage("MessageBody");
+      } catch(err) {
+          alert(err)
+      }
+    }
+
+  function redHeader() {
+    alert('readHeader() CALL');
+    document.querySelector('h1').style.color = "black";
+  }
+
+  </script>
+</head>
+<body>
+  <h1>IOS용 페이지</h1>
+  <br><br><input type="button" onclick="callNative()" value="네이티브 함수 호출"/>
+</body>
+</html>
