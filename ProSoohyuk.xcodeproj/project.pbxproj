@@ -14,6 +14,7 @@
 		CC3D5C3A256160B7003A0081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3D5C38256160B7003A0081 /* Main.storyboard */; };
 		CC3D5C3C256160B8003A0081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3D5C3B256160B8003A0081 /* Assets.xcassets */; };
 		CC3D5C3F256160B8003A0081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3D5C3D256160B8003A0081 /* LaunchScreen.storyboard */; };
+		CC8DCAB92562608F00BD6E5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC8DCAB82562608F00BD6E5A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CC3D5C3E256160B8003A0081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3D5C40256160B8003A0081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3D5C5725616957003A0081 /* ProSoohyuk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProSoohyuk.entitlements; sourceTree = "<group>"; };
+		CC8DCAB82562608F00BD6E5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D95DB5716DD90FDE57D08CF1 /* Pods-ProSoohyuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProSoohyuk.debug.xcconfig"; path = "Target Support Files/Pods-ProSoohyuk/Pods-ProSoohyuk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		CC3D5C31256160B7003A0081 /* ProSoohyuk */ = {
 			isa = PBXGroup;
 			children = (
+				CC8DCAB82562608F00BD6E5A /* GoogleService-Info.plist */,
 				CC3D5C5725616957003A0081 /* ProSoohyuk.entitlements */,
 				CC3D5C32256160B7003A0081 /* AppDelegate.swift */,
 				CC3D5C34256160B7003A0081 /* SceneDelegate.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC3D5C3F256160B8003A0081 /* LaunchScreen.storyboard in Resources */,
+				CC8DCAB92562608F00BD6E5A /* GoogleService-Info.plist in Resources */,
 				CC3D5C3C256160B8003A0081 /* Assets.xcassets in Resources */,
 				CC3D5C3A256160B7003A0081 /* Main.storyboard in Resources */,
 			);
@@ -371,7 +375,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -395,7 +399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>186271105365-m5hki13uqjlo4av0l11b6hk0v0q8h6rs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.186271105365-m5hki13uqjlo4av0l11b6hk0v0q8h6rs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDjdrRnxj-5pb8OT8RbTUUOYdUCasVePu4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>186271105365</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.prosoohyuk.ProSoohyuk</string>
+	<key>PROJECT_ID</key>
+	<string>prosoohyuk</string>
+	<key>STORAGE_BUCKET</key>
+	<string>prosoohyuk.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:186271105365:ios:de598b0e6acc061ae06fdc</string>
+	<key>DATABASE_URL</key>
+	<string>https://prosoohyuk.firebaseio.com</string>
+</dict>
+</plist>
