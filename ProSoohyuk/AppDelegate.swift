@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import Alamofire
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         // PUSH 서비스 설정
         setupPushService(application)
+        
+        // 좋은 예
+//        API.shared.request(url: "", param: [:]) { (response:Swift.Result<Update, Error>) -> Void in
+//            switch response {
+//            case .success(let data):
+//                print(data.version)
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
+        
+        // 안좋은 예
+//        AF.request("", method: .post, parameters: [:]).response { r in
+//            switch r.result {
+//            case .success(let data):
+//                guard let data = value else { return }
+//                let decoder = JSONDecoder()
+//                do {
+//                    let d = try decoder.decode(Update.self, from: data)
+//
+//                } catch {
+//
+//                }
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
         
         application.applicationIconBadgeNumber = 0
         return true
